@@ -1,7 +1,9 @@
 .firstContainer {
-  background-color:darksalmon;
+  background: url(https://cdn.wegow.com/media/venue-media/red-rocks-amphitheatre/red-rocks-amphitheatre-1564388341.-1x1780.jpg) no-repeat center center fixed;
+  background-size: cover;
   height: 450px;
   margin-bottom: -20px;
+  position: relative;
 }
 
 .secondContainer {
