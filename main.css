@@ -50,11 +50,41 @@
   color: lightgray;
 }
 .secondContainer {
-  background-color: lightgray;
+  background-color: white;
   height: 300px;
   margin-bottom: -22px;
+  display: flex;
+  position: absolute;
 }
-
+.textContainer {
+  height: 195px;
+}
+.textContent h3 {
+  color:  #c7604f;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  margin: 65px 25px 5px 25px;
+}
+.textContent p {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  margin: 5px 25px 10px 25px;
+ 
+}
+#tBorder {
+  border-right: 1px solid gray;
+}
+button {
+  margin: 5px 25px;
+  border: none;
+  text-decoration: none;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: bold;
+  background: #c7604f;
+  color: white;
+  padding: 1em;
+}
+button:hover {
+  background: #f9aa9c;;
+}
 .thirdContainer {
   background-color: lightsalmon;
   height: 650px;
