@@ -1,24 +1,39 @@
 .firstContainer {
-  background: url(https://media.9news.com/assets/KUSA/images/579c885c-dd69-4ecd-9e08-adab7b52ab5d/579c885c-dd69-4ecd-9e08-adab7b52ab5d.jpg) no-repeat center center;
+  background: url(https://electronicmidwest.com/wp-content/uploads/2014/02/rrx-78.jpg) no-repeat center center;
   background-size: cover;
   height: 450px;
   margin-bottom: -22px;
   position: relative;
+ 
 }
-.h1 {
+.welcomeH1 {
   font-family: 'Poiret One', cursive;
   color: white;
+  font-weight: lighter;
+  font-size: 55px;
+  position: absolute;
+  top: 32%;
+  left: 33%;
+}
+.welcomeP {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  color: white;
+  font-weight: lighter; 
+  position: absolute;
+  top: 52%;
+  left: 40%;
+  color: lightgray;
 }
 .secondContainer {
   background-color: lightgray;
   height: 300px;
-  margin-bottom: -20px;
+  margin-bottom: -22px;
 }
 
 .thirdContainer {
   background-color: lightsalmon;
   height: 650px;
-  margin-bottom: -20px;
+  margin-bottom: -22px;
 }
 
 .fourthContainer {
