@@ -1,11 +1,37 @@
+.body {
+  margin: 0;
+}
 .firstContainer {
   background: url(https://electronicmidwest.com/wp-content/uploads/2014/02/rrx-78.jpg) no-repeat center center;
   background-size: cover;
   height: 450px;
   margin-bottom: -22px;
   position: relative;
- 
 }
+.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 13%;
+  left: 76%;
+}
+.nav-item {
+  float: right;
+}
+.nav-item a {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  display: block;
+  font-weight: lighter;
+  color: lightgray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+.nav-item a:hover {
+  color: white;
+  }
 .welcomeH1 {
   font-family: 'Poiret One', cursive;
   color: white;
@@ -17,7 +43,6 @@
 }
 .welcomeP {
   font-family: 'M PLUS Rounded 1c', sans-serif;
-  color: white;
   font-weight: lighter; 
   position: absolute;
   top: 52%;
