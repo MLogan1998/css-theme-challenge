@@ -1,3 +1,23 @@
-body {
-  background-color: bisque;
+.firstContainer {
+  background-color:darksalmon;
+  height: 450px;
+  margin-bottom: -20px;
+}
+
+.secondContainer {
+  background-color: lightgray;
+  height: 300px;
+  margin-bottom: -20px;
+}
+
+.thirdContainer {
+  background-color: lightsalmon;
+  height: 650px;
+  margin-bottom: -20px;
+}
+
+.fourthContainer {
+  background-color: lightgray;
+  height: 650px;
+  margin-bottom: -20px;
 }
