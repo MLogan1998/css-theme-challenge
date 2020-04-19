@@ -72,7 +72,7 @@ body {
 #tBorder {
   border-right: 1px solid gray;
 }
-button {
+.textButton {
   margin: 5px 25px;
   border: none;
   text-decoration: none;
@@ -86,7 +86,7 @@ button:hover {
   background: #f9aa9c;;
 }
 .thirdContainer {
-  background-color: #c7604f;;
+  background-color: #c7604f;
   height: 600px;
   margin-bottom: -22px;
   text-align: center;
@@ -143,7 +143,58 @@ button:hover {
   margin: 0px;
 }
 .fourthContainer {
-  background-color: lightgray;
-  height: 650px;
-  margin-bottom: -20px;
+  background-color: white;
+  height: 600px;
+  margin-bottom: -22px;
+  text-align: center;
+  
+}
+.upcomingH1 {
+  font-family: 'Poiret One', cursive;
+  color: #c7604f;
+  font-weight: lighter;
+  font-size: 45px; 
+  padding: 30px 0px 0px 0px;
+  margin: 0px;
+}
+.upcomingContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 420px;
+  max-width: 980px;
+  padding: 0;
+  margin: 0 auto;
+  border-bottom: 1px solid darkgray;
+}
+.upcomingCard {
+  width: 465px;
+  padding: 0px;
+  float: left;
+  height: 375px;
+  position: relative;
+  text-align: left;
+  margin: 20px 0px 0px 0px;
+}
+.upcomingName {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: lighter; 
+  color: #c7604f; 
+  margin: 10px 0pc 0px 0px;
+}
+.upcomingInfo {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  margin: 8px 0px 0px 0px;
+}
+.upcomingButton {
+  border: none;
+  text-decoration: none;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: bold;
+  background: #c7604f;
+  color: white;
+  padding: 1em;
+  margin: 13px 0px 0px 0px;
 }
