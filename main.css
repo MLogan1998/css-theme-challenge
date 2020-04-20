@@ -8,6 +8,13 @@ body {
   margin-bottom: -22px;
   position: relative;
 }
+.logo {
+  margin: 57px 0px 0px 105px;
+  width: 75px;
+}
+a:hover img {
+  opacity: .85;
+}
 .navigation {
   list-style-type: none;
   margin: 0;
